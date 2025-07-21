@@ -3,8 +3,8 @@ import { t } from '@/i18n';
 import style from './style.css?inline';
 
 export default createPlugin({
-  name: () => t('library only ytm'),
-  description: () => t('just the bare bones of ytm, removes home, explore and upgrade pages'),
+  name: () => t('plugins.barebonesytm.name'),
+  description: () => t('plugins.barebonesytm.description'),
   restartNeeded: false,
 
   renderer: {

@@ -55,3 +55,19 @@ ytmusic-nav-bar[is-bauhaus-sidenav-enabled] ytmusic-search-box.ytmusic-nav-bar {
     width: 100%;
     max-width: 800px;
 }
+
+* {
+  scrollbar-width: unset !important;
+  scrollbar-color: unset !important;
+}
+
+*::-webkit-scrollbar {
+    width: 8px !important;
+    height: 0px !important;
+}
+
+*::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    border: 2px solid transparent;
+    background-clip: padding-box;
+}
